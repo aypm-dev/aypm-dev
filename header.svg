@@ -37,7 +37,7 @@
 					border-radius: 10px;
 					color: white;
 					text-align: center;
-              		background-image: repeating-radial-gradient(ellipse farthest-corner at left top, rgba(193,193,193,0.51) 0%, rgba(62,20,123,0) 99%);
+              		background-image: repeating-radial-gradient(ellipse farthest-corner at left top, rgba(193,193,193,0.15) 0%, rgba(62,20,123,0) 100%);
 				}
 
 				h1 {
