@@ -18,16 +18,10 @@
 					0% {
 						opacity: 0;
 					}
-					20% {
-						opacity: 1;
-					}
-              		40% {
-              			opacity: 0;
+              		50% {
+              			opacity: 1;
               		}
-					60% {
-						opacity: 1;
-					}
-              		65% {
+              		100% {
 						opacity: 0;
 					}
 				}
@@ -43,6 +37,7 @@
 					border-radius: 10px;
 					color: white;
 					text-align: center;
+              		background-image: repeating-radial-gradient(ellipse farthest-corner at left top, rgba(193,193,193,0.51) 0%, rgba(62,20,123,0) 99%);
 				}
 
 				h1 {
@@ -58,7 +53,9 @@
 				}
               
               .pulse1 {
-              	animation: 5s ease 0s normal forwards 1 pulse1;
+               animation-name: pulse1;
+  				animation-duration: 2s;
+              animation-iteration-count: infinite;
               }
 			</style>
 			<div class="container">
